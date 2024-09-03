@@ -2,11 +2,11 @@ package com.github.connorwyatt.quoteboard.strategypanels
 
 import com.github.connorwyatt.quoteboard.StrategyState
 import com.github.connorwyatt.quoteboard.extensions.intersperse
+import com.github.connorwyatt.quoteboard.extensions.withPrevious
 import com.github.connorwyatt.quoteboard.models.QuoteboardColumn
 import com.github.connorwyatt.quoteboard.models.SubscribedInstrument
 import com.github.connorwyatt.quoteboard.swing.addAncestorListeners
 import com.github.connorwyatt.quoteboard.window.QuoteboardWindowManager
-import com.github.connorwyatt.quoteboard.withPrevious
 import io.reactivex.rxjava3.disposables.Disposable
 import java.awt.Dimension
 import javax.swing.Box

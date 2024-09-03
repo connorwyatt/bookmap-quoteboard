@@ -1,4 +1,4 @@
-package com.github.connorwyatt.quoteboard
+package com.github.connorwyatt.quoteboard.extensions
 
 import io.reactivex.rxjava3.core.Observable
 
